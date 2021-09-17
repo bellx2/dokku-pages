@@ -16,7 +16,7 @@ npm i -g dokku-pages
 ```
 ### Usage
 ```
-dokku-pages deploy -g dokku@mysite.com:myapp -p dist
+dokku-pages deploy -g dokku@mysite.com:myapp -d dist
 ```
 ### Minimal Containers
 By adding the `--minimal` flag, you can dramatically decrease container footprint.
